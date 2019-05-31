@@ -13,6 +13,9 @@ app.config(function($routeProvider) {
 	.when("/documentation", {
 		templateUrl: "documentation.htm"
 	})
+	.when("/result", {
+		templateUrl: "result.htm"
+	})
 	.when("/references", {
 		templateUrl: "references.htm"
 	})
