@@ -20,6 +20,22 @@
 	font-weight: bold;
 }
 
+a.maillink:link {
+	text-decoration: none;
+	color: grey;
+}
+
+a.maillink:visited {
+	text-decoration: none;
+}
+
+a.maillink:hover {
+	text-decoration: underline;
+}
+
+a.maillink:active {
+	text-decoration: none;
+}
 table {
 	border-collapse: collapse;
 	width: 90%;
